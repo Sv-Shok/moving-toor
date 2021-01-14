@@ -1,0 +1,25 @@
+.headerMiddle {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 1920px;
+    min-height: 128px;
+    background-color: #5866B1;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+
+@media (max-width: 940px) {
+    .headerMiddle {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerMiddle {
+        min-height: 100px;
+
+    }
+}

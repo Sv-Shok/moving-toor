@@ -1,0 +1,22 @@
+@import '../../../styles/variables.css';
+
+.section {
+    max-width: 1920px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: var(--lightGrey);
+    /* border: 1px solid black; */
+}
+
+.footerBottom {
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: var(--textStyle);
+    font-weight: 600;
+    color: var(--durkBlue);
+    /* border: 1px solid black; */
+}

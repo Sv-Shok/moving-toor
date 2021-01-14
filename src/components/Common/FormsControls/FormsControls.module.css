@@ -1,0 +1,14 @@
+
+ .error textarea
+ {
+     border: solid red 2px;
+ }
+
+ .error input
+ {
+     border: solid red 2px;
+ }
+ .span{
+     color: red;
+     font-weight: bold;
+ }

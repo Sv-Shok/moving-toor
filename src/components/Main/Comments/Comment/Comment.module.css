@@ -1,0 +1,39 @@
+@import '../../../../styles/variables.css';
+
+.box{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px 10px 20px 10px;
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.userName{
+    color: #573A3A;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.date{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: var(--grey);
+}
+
+.message{
+    word-wrap: break-word;
+}
+
+.ratingStar{
+     display: flex;
+     align-items: center;
+ }
+
+.ratingStar span{
+    margin-left: 5px;
+    font-size: 18px;
+}

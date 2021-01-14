@@ -1,0 +1,36 @@
+@import '../../styles/variables.css';
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.styleForContainer {
+  width: 1000px;
+  padding: 30px;
+  font-size: 18px;
+  background: url(../Header/HeaderMiddle/Logo/logo.gif) no-repeat;
+  background-size: 15%;
+  background-position: right bottom;
+  background-color: rgba(153, 153, 153, 0.5); 
+  -ms-user-select: none; 
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  user-select: none; 
+  
+}
+
+.heightAndWidth {
+  height: 400px;
+  width: 900px;
+}
+
+
+@media (max-width: 768px) {
+  .heightAndWidth {
+    height: 200px;
+    width: 350px;
+  }
+}

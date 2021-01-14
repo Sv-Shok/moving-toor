@@ -1,0 +1,65 @@
+.modal {
+    outline: none;
+    background: white;
+    font-size: 1.6rem;
+    width: 76rem;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 15;
+    min-height: 40%;
+    border-radius: 5px;
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+    .modal {
+        width: 80%;
+        max-width: 100%;
+        margin-bottom: 0;
+        border-radius: 5px;
+    }
+}
+
+.message{
+    margin: 30px 10px 0px 10px;
+    text-align: center;
+}
+
+.button {
+    margin: 10px auto;
+    max-width: 150px;
+    height: 50px;
+    box-shadow:inset 0px 1px 0px 0px #f59990;
+    background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+    background-color:#f24537;
+    border-radius:6px;
+    border:1px solid #d02718;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    /*font-weight:bold;*/
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+}
+.button:hover {
+    background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+    background-color:#c62d1f;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    max-width: 200px;
+    text-align: center;
+    opacity:0.20;
+}

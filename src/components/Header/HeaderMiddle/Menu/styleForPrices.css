@@ -1,0 +1,42 @@
+@import '../../../../styles/variables.css';
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.forTable {
+  width: 1000px;
+  text-align: center;
+  background: url(../Logo/logo.gif) no-repeat;
+  background-size: 15%;
+  background-position: right bottom;
+  background-color: silver;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+table, td, th {
+  border: 1px solid black;
+}
+/* залупа з розміром тексту */
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+    font-size: 11px;
+  }
+ 
+}
+
+@media (max-width: 320px) {
+  table {
+    font-size: 10px
+  };
+}
+
+
