@@ -4,8 +4,12 @@ import './HeaderTop.css';
 
 const HeaderTop = () => {
   return(
-    <div className="blackLine">Вантажні послуги у Івано-Франківську</div>
-  )
+      <div className="blackLine">
+      <div className='forText'>
+      <p>Вантажні послуги у м.Івано-Франківськ</p>
+  </div>
+  </div>
+)
 }
 
 export default HeaderTop;

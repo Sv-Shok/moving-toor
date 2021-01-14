@@ -11,10 +11,11 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 let dataAboutUs = {
-    title: "WELCOME TO OUR COMPANY!",
-    text: `WheelMasters is a crew of true auto enthusiast, all of whom are sincerely passionate \
-           about enhancing the performance and looks of your car! All the creativity, craftsmanship, \
-           and skill that each member of our crew has makes any car that we upgrade`,
+    title: "Ласкаво просимо!",
+    text: "Компанія «Тур» - це команда справжніх професіоналів вантажно-розвантажувальних робіт.\
+    Наша компанія може організувати будь-який переїзд «від А до Я», доставить для вас будматеріали,\
+    техніку, меблі чи інший вантаж прямо до зазначеного вами місця. Вам достатньо залишити заявку на сайті\
+    або зателефонувати за вказаними номерами. Ви завжди отримаєте кваліфіковану допомогу від фахівців нашої компанії.",
     gallery: [picture1, picture2, picture3, picture4, picture5, picture6]
 };
 

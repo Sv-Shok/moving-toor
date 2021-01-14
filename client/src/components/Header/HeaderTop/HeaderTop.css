@@ -1,23 +1,35 @@
 /* @import '../../../styles/variables.css'; */
 
 .blackLine {
-  max-width: 1920px;
-  background-color: black;
-  min-height: 40px;
-  color: white;
-  font-family: Roboto; 
-  font-size: 22px;
-  text-align: center; 
-  box-sizing: border-box;
-  padding-top: 10px;
-  
+  display: flex;
+  justify-content: center;
+  background-color: var(--black);
+  height: 75px;
+
 }
 
+.forText {
+  color:var(--white);
+  font-size: 27px;
+}
 
-@media (min-width: 360px) {
+@media (max-width: 760px) {
   .blackLine {
-    height: 75px;
-    font-size: 34px;
-    padding-top: 15px;
+    height: 55px;
   }
+
+  .forText {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 320px) {
+  .blackLine {
+    height: 50px;
+  }
+
+  .forText {
+    font-size: 16px;
+  }
+
 }

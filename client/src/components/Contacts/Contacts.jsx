@@ -7,6 +7,8 @@ const Contacts = () => {
       <div className='page'><h1>контакти</h1></div>
     </div>
   )
-}
+};
 
 export default Contacts;
+
+
