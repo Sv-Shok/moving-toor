@@ -15,7 +15,7 @@ server.use('/api/post', postRouter);
 // server.use(express.static(clientPath));
 
 // Connect Database
-mongoose.connect(keys.mongoURI,  { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URI || keys.mongoURI,  { useNewUrlParser: true, useUnifiedTopology: true })
     .then(()=> console.log('MongoDB connected'))
     .catch((err)=>console.error(err));
 
